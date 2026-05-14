@@ -1,5 +1,9 @@
 name: CI
-on: workflow_dispatch
+on:
+    push:
+        branches:
+            - main
+            - test
 
 # NODE JS APP REACT
 jobs:
