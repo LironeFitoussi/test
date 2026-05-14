@@ -6,7 +6,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  console.log("baba is here");
+  
   return (
     <>
       <section id="center">
