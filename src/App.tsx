@@ -18,6 +18,7 @@ function App() {
         <div>
           <h1>Welcome to IITC!!!</h1>
           <p>
+            baba
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
           </p>
         </div>
