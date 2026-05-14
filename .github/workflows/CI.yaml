@@ -1,0 +1,19 @@
+name: CI
+on: workflow_dispatch
+
+# NODE JS APP REACT
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - run: npm install
+            - name: Run tests
+              run: npm run test
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - run: npm install
+            - name: Run linting
+              run: npm run lint
